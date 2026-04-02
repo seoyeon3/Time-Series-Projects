@@ -7,11 +7,12 @@ This repository presents time series projects using Switzerland’s economic tur
 
 **Project Workflow Summary**
 
-- **Exploratory Data Analysis**: Checked for trends and seasonality in raw economic turnover data to understand underlying patterns.
-- **Stationarity Analysis**: Analyzed ACF and PACF plots to determine the optimal order of $AR(p)$ and $MA(q)$ processes and verify the necessity of differencing.
-- **Data Transformation**: Performed Stationary Transformation through seasonal and first-order differencing to stabilize the series. 
-- **Model Selection & Hypothesis Testing**: Conducted Hypothesis Tests for coefficients to ensure feature relevance, ultimately identifying an AR(2) structure.
-- **Methodological Validation**: Executed a Yule-Walker simulation to verify the robustness of the estimation framework.
+- **Exploratory Data Analysis**: checked for trends and seasonality in raw economic turnover data to understand underlying patterns.
+  
+- **Stationarity Analysis**: analyzed ACF and PACF plots to determine the optimal order of $AR(p)$ and $MA(q)$ and verify differencing.
+- **Data Transformation**: performed stationary transformation through seasonal and first-order differencing to stabilize the series. 
+- **Model Selection & Hypothesis Testing**: conducted hypothesis tests for coefficients, identifying an AR(2) structure.
+- **Methodological Validation**: executed a Yule-Walker simulation to verify the robustness of the estimation framework.
 
 
 
