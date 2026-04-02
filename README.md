@@ -3,7 +3,7 @@
 This repository presents time series projects using Switzerland’s economic turnover data, focusing on both analysus and forecasting.
 
 
-## Project 1: Time Series Analysis of AR(2) and Simulation Study [![Project 1](https://img.shields.io/badge/Project1-Modeling-blue)](https://github.com/seoyeon3/Time-Series-Projects/blob/main/Project1%3A%20Time%20Series%20Analysis%20of%20Switzerland%20Economic%20Turnover%3A%20AR(2)%20and%20Simulation%20Study.pdf)
+## Project 1: Time Series Analysis of AR(2) and Simulation Study [![Project 1](https://img.shields.io/badge/Project1-Analysis-blue)](https://github.com/seoyeon3/Time-Series-Projects/blob/main/Project1%3A%20Time%20Series%20Analysis%20of%20Switzerland%20Economic%20Turnover%3A%20AR(2)%20and%20Simulation%20Study.pdf)
 
 **Problem**  
 Time series data often contain trend and seasonal patterns, making it necessary to understand the underlying structure before building a model.
