@@ -7,22 +7,17 @@ This repository presents time series projects using Switzerland’s economic tur
 
 **Project Workflow Summary**
 
-- **Exploratory Data Analysis**: checked for trends and seasonality in raw economic turnover data to understand underlying patterns.
-  
-- **Stationarity Analysis**: analyzed ACF and PACF plots to determine the optimal order of $AR(p)$ and $MA(q)$ and verify differencing.
-- **Data Transformation**: performed stationary transformation through seasonal and first-order differencing to stabilize the series. 
-- **Model Selection & Hypothesis Testing**: conducted hypothesis tests for coefficients, identifying an AR(2) structure.
-- **Methodological Validation**: executed a Yule-Walker simulation to verify the robustness of the estimation framework.
+- Exploratory Data Analysis: checked for trends and seasonality in raw economic turnover data to understand underlying patterns.
+- Stationarity Analysis: analyzed ACF and PACF plots to determine the optimal order of $AR(p)$ and $MA(q)$ and verify differencing.
+- Data Transformation: performed stationary transformation through seasonal and first-order differencing to stabilize the series. 
+- Model Selection & Hypothesis Testing: conducted hypothesis tests for coefficients, identifying an AR(2) structure.
+- Methodological Validation: executed a Yule-Walker simulation to verify the robustness of the estimation framework.
 
 
 
-## Project 2: Time Series Forecasting and Evaluation [![Project 2](https://img.shields.io/badge/Project2-Forecasting-green)](https://github.com/seoyeon3/Time-Series-Projects/blob/main/Project2%20Report.pdf)
+## Project 2: Time Series Forecasting SARIMA(1,1,3)(0,1,1)[12] and Smoothing [![Project 2](https://img.shields.io/badge/Project2-Forecasting-green)](https://github.com/seoyeon3/Time-Series-Projects/blob/main/Project2%20Report.pdf)
 
-
-**Problem**  
-Accurately forecasting future values requires capturing temporal dependencies and validating model performance through rigorous diagnostics.
-
-**Approach**  
+**Project Workflow Summary**
 - Built ARIMA and SARIMA models to forecast future turnover values  
 - Compared models using AIC/BIC and error metrics  
 - Performed residual diagnostics (ACF, Q-Q plot, Ljung-Box test)  
